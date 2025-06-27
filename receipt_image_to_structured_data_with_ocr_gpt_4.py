@@ -17,6 +17,20 @@ image.show()
 raw_text = pytesseract.image_to_string(image)
 print("OCR Raw Text:\n", raw_text)
 
+import openai
+openai.api_key = "YOUR_API_KEY"
+
+response = openai.ChatCompletion.create(
+  model="gpt-4",
+  messages=[
+    {"role": "system", "content": "You are a helpful assistant that extracts structured data from receipts in Label: Detail format."},
+    {"role": "user", "content": f"Extract structured data from the following receipt text:\n\n{raw_text}"}
+  ]
+)
+
+print(response['choices'][0]['message']['content'])
+
+
 response = openai.ChatCompletion.create(
   model="gpt-4",
   messages=[
