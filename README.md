@@ -3,6 +3,8 @@
 🔍 **A Python prototype that converts receipt images into structured data using Tesseract OCR + OpenAI GPT-4 API.**  
 Built and tested entirely in **Google Colab**, this demo extracts raw text from receipt images and outputs structured information in either **Label: Value** format or **JSON**.
 
+## Google Colab Link
+📎 https://colab.research.google.com/drive/1paY8-Rp1r8ZPHZw0eU2_D1sznpjLDDJ2?usp=sharing
 ---
 
 ## 📸 What the System Does
@@ -41,7 +43,7 @@ Built and tested entirely in **Google Colab**, this demo extracts raw text from 
 ## 🚀 How to Use (In Google Colab)
 
 1. 📎 Open the Colab Notebook:
-   [🔗 Click to open notebook](https://colab.research.google.com/drive/1c__7wpHZLjgBCtXNneStysracrg_gpaO?usp=sharing)
+   [🔗 Click to open notebook](https://colab.research.google.com/drive/1paY8-Rp1r8ZPHZw0eU2_D1sznpjLDDJ2?usp=sharing)
 
 2. 📤 Upload a receipt image file when prompted
 
